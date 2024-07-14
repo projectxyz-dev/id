@@ -1,13 +1,13 @@
 // public/firebaseConfig.js
 var firebaseConfig = {
-    apiKey: "AIzaSyCwRMm-x1Nq77CAOFNcLlrtujniM_Qd8M0",
+    apiKey: "{ SECRETS.FIREBASE_API_KEY }",
     authDomain: "through-the-shadows.firebaseapp.com",
     databaseURL: "https://through-the-shadows-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "through-the-shadows",
     storageBucket: "through-the-shadows.appspot.com",
     messagingSenderId: "545447466617",
-    appId: "1:545447466617:web:45d32ec7cfbc9b1f7fe6a8",
-    measurementId: "G-G7SCGC8E1K"
+    appId: ""{ SECRETS.FIREBASE_APP_ID }"",
+    measurementId: "{ SECRETS.FIREBASE_MEASUREMENT_ID }"
   };
   
   // Initialize Firebase
