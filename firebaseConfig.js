@@ -6,7 +6,7 @@ var firebaseConfig = {
     projectId: "through-the-shadows",
     storageBucket: "through-the-shadows.appspot.com",
     messagingSenderId: "545447466617",
-    appId: ""{ SECRETS.FIREBASE_APP_ID }"",
+    appId: "{ SECRETS.FIREBASE_APP_ID }",
     measurementId: "{ SECRETS.FIREBASE_MEASUREMENT_ID }"
   };
   
